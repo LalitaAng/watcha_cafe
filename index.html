@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watcha Café</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <img src="images/logo_watcha.png" class="logo" />
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="hamburger">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <h1>Welcome to Watcha Café</h1>
+          <p>Experience the perfect blend of comfort and taste</p>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>
+            We are passionate about creating the perfect café experience for our
+            customers. Our carefully selected ingredients and skilled baristas
+            ensure every visit is memorable.
+          </p>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="container">
+          <h2>Our Menu</h2>
+          <div class="menu-tabs">
+            <button class="menu-tab active">Drinks</button>
+            <button class="menu-tab">Desserts</button>
+          </div>
+          <div class="menu-grid">
+            <!-- Drink Items -->
+            <div class="menu-item">
+              <img src="/images/thai_tea.jpg" alt="Thai tea" />
+              <div class="menu-item-content">
+                <h3>Cappuccino</h3>
+                <p class="menu-item-price">$4.50</p>
+              </div>
+            </div>
+            <!-- Add more menu items as needed -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div>
+              <h2>Contact Us</h2>
+              <p>Email: watchacafe.aachen@gmail.com</p>
+              <p>Phone: (0xxx) 123-4567</p>
+              <p>Address: Neupforte 23/25, City, 52062 Aachen</p>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.8528792528386!2d6.081691076865658!3d50.778300763703555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0997adf70ede9%3A0x87a6a12fdab14695!2sNeupforte%2023%2C%2052062%20Aachen!5e0!3m2!1sde!2sde!4v1735043920272!5m2!1sde!2sde"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h3>Watcha Café</h3>
+          <p>Neupforte 23/25<br />52062 Aachen</p>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <p>Mon-Fri: 11am - 8pm<br />Sat-Sun: 10am - 9pm</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Phone: (0xxx) 123-4567<br />Email: watchacafe.aachen@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
