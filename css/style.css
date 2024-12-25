@@ -75,11 +75,12 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 0;
+  align-items: center;
   transition: all 0.1s ease-in-out;
 }
 
 .nav-links a {
+  min-width: 110px;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -94,8 +95,13 @@ header {
 @media (min-width: 769px) {
   .nav-links {
     position: absolute;
-    left: 20%;
-    gap: 9rem;
+    left: 13%;
+    gap: clamp(4rem, 8vw, 9rem);
+  }
+
+  .nav-links a {
+    padding: 0.5rem 1rem; /* Equal padding around links */
+    white-space: nowrap; /* Prevents text wrapping */
   }
 
   .language-switcher {
@@ -106,11 +112,12 @@ header {
 @media (min-width: 769px) and (max-width: 1100px) {
   .nav-links {
     position: absolute;
-    left: 20%;
-    gap: 4rem; 
+    left: 13%;
+    gap: clamp(1.2rem, 3vw, 4rem);
   }
-  
+
   .language-switcher {
+    padding-left: 1rem;
     padding-right: 0.7rem;
   }
 }
