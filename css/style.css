@@ -86,12 +86,12 @@ section {
   margin: 0 auto;
 }
 
-p {
+section > .container > p {
   margin-top: 20px;
   margin-left: 15px;
 }
 
-h2 {
+section > .container > h2 {
   margin-left: 15px;
 }
 
@@ -133,25 +133,25 @@ h2 {
 
 /* Create a pseudo-element for the sliding border */
 .menu-tab::after {
-  content: '';
+  content: "";
   position: absolute;
-  bottom: -2px;  
+  bottom: -2px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: hsl(24, 76%, 86%);  /* Hover color */
-  transform: scaleX(0);  /* Start with 0 width */
-  transform-origin: left;  /* Animation will start from left side */
+  background-color: hsl(24, 76%, 86%); /* Hover color */
+  transform: scaleX(0); /* Start with 0 width */
+  transform-origin: left; /* Animation will start from left side */
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .menu-tab:hover::after {
-  transform: scaleX(1);  /* Expand to full width */
+  transform: scaleX(1); /* Expand to full width */
 }
 
 .menu-tab.active::after {
-  transform: scaleX(1);  /* Keep at full width */
-  background-color: hsl(24, 76%, 56%);  /* Active state color */
+  transform: scaleX(1); /* Keep at full width */
+  background-color: hsl(24, 76%, 56%); /* Active state color */
 }
 
 .menu-grid {
@@ -181,11 +181,13 @@ h2 {
 
 .menu-item-content {
   padding: 1rem;
+  text-align: center;
 }
 
 .menu-item-price {
   color: #e27b2e;
   font-weight: bold;
+  margin: 0;
 }
 
 /* Contact section */
@@ -197,7 +199,11 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  padding-right: 1rem;
+  padding: 0 1rem;
+}
+
+.contact-info p {
+  margin-top: 20px;
 }
 
 .map-container {
@@ -208,10 +214,10 @@ h2 {
 }
 
 .map-container iframe {
-  width: 100%; 
+  width: 100%;
   height: 100%;
-  display: block; 
-} 
+  display: block;
+}
 
 /* Footer styles */
 footer {
@@ -223,6 +229,7 @@ footer {
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
@@ -268,7 +275,7 @@ footer {
   .nav-links.active a:active {
     background-color: hsla(24, 76%, 30%, 1);
     transform: scale(0.98);
-}
+  }
 
   .contact-grid {
     grid-template-columns: 1fr;
