@@ -340,7 +340,6 @@ section > .container > h2 {
 }
 
 .menu-item {
-  background: var(--menu-item-bg);
   overflow: hidden;
   transition: transform 0.3s;
 }
