@@ -1,0 +1,69 @@
+/* Main content styles */
+main {
+  margin-top: 80px;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section > .container > p {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+section > .container > h2 {
+  margin-left: 15px;
+}
+
+/* Home section */
+#home {
+  background: url("/images/cafe.jpg") center/cover;
+  opacity: 50%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* About section */
+#about {
+  background: var(--section-alt-bg);
+}
+
+/* Contact section */
+#contact {
+  background: var(--section-alt-bg);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.contact-info p {
+  margin-top: 20px;
+}
+
+.map-container {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
