@@ -22,7 +22,8 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: hsl(24, 76%, 66%);
+    background-color: hsl(24, 76%, 70%);
+    height: calc(100vh - 80px);
     padding: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transform: none;
@@ -32,9 +33,12 @@
 
   .nav-links.active a {
     width: 100%; 
-    padding: 3rem 2rem; 
-    text-align: center;
-    transition: background-color 0.3s ease;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
   }
 
   .nav-links.active a:hover {

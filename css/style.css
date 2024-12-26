@@ -6,23 +6,18 @@
 
 /* Light mode (default) colors */
 :root {
-  /* Base colors */
   --background-color: #ffffff;
   --text-color: #333333;
 
-  /* Header specific */
   --header-bg: hsl(24, 76%, 66%);
   --header-text: #333333;
   --header-hover: #ffffff;
 
-  /* Menu items */
   --menu-item-bg: #ffffff;
   --menu-item-price: #e27b2e;
 
-  /* Sections */
-  --section-alt-bg: #f9f9f9;
+  --section-alt-bg: hsl(24, 76%, 92%);
 
-  /* Footer */
   --footer-bg: #333333;
   --footer-text: #ffffff;
 }
