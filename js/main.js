@@ -25,10 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
   initTheme();
 
   // 2. Set up theme-related listeners
-  document.querySelector(".theme-toggle").addEventListener("click", toggleTheme);
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+  document
+    .querySelector(".theme-toggle")
+    .addEventListener("click", toggleTheme);
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (e) => {
       if (!localStorage.getItem("theme")) {
-        document.documentElement.setAttribute("data-theme",e.matches ? "dark" : "light");
+        document.documentElement.setAttribute(
+          "data-theme",
+          e.matches ? "dark" : "light"
+        );
       }
     });
 
@@ -78,6 +85,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  const fadeElements = document.querySelectorAll(".fade-in");
+  console.log("Found fade-in elements:", fadeElements.length);
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        console.log("Element intersecting:", entry.isIntersecting);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          entry.target.classList.remove("fade-out");
+        } else {
+          entry.target.classList.remove("visible");
+          entry.target.classList.add("fade-out");
+        }
+      });
+    },
+    {
+      threshold: 0.1,
+      rootMargin: "-20px",
+    }
+  );
+
+  document.querySelectorAll(".fade-in").forEach((element) => {
+    observer.observe(element);
+    console.log("Observing element:", element);
+  });
 });
 
 window.changeLanguage = changeLanguage;
