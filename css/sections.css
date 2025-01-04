@@ -1,6 +1,11 @@
 /* Main content styles */
 main {
+  min-height: 100vh;
   margin-top: 80px;
+}
+
+.main_additional_page {
+  background: var(--section-alt-bg);
 }
 
 section {
@@ -10,6 +15,12 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.container_additional_page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem;
 }
 
 section > .container > p {

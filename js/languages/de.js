@@ -40,4 +40,7 @@ export const de = {
     footer_hours_title: "Öffnungszeit",
     footer_hours_weekday: "Mo-Fr",
     footer_hours_weekend: "Sa-So",
+    footer_quick_links: "Schnelle Links",
+    footer_legal_notice: "Impressum",
+    footer_data_protection: "Datenschutz",
 };
