@@ -16,6 +16,11 @@
   position: relative;
 }
 
+.menu-tab h2 {
+  color: var(--text-color);
+  transition: color 0.3s ease; 
+}
+
 /* Create a pseudo-element for the sliding border */
 .menu-tab::after {
   content: "";
@@ -40,10 +45,14 @@
 }
 
 .menu-grid {
-  display: grid;
+  display: none;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 1rem;
+}
+
+.menu-grid.active {
+  display: grid;
 }
 
 .menu-item {

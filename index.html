@@ -9,13 +9,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/sections.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/dark-theme.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/dark-theme.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <header>
@@ -29,17 +29,39 @@
         </div>
         <div class="controls-group">
           <div class="language-switcher">
-            <button class="lang-btn active" onclick="changeLanguage('en')">EN</button>
+            <button class="lang-btn active" onclick="changeLanguage('en')">
+              EN
+            </button>
             <span class="lang-separator">|</span>
             <button class="lang-btn" onclick="changeLanguage('de')">DE</button>
           </div>
           <button class="theme-toggle" aria-label="Toggle dark mode">
-            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="5"/>
-              <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+            <svg
+              class="sun-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+              />
             </svg>
-            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            <svg
+              class="moon-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
             </svg>
           </button>
         </div>
@@ -55,7 +77,9 @@
       <section id="home">
         <div class="container">
           <h1 data-translate="home_title">Welcome to Watcha Café</h1>
-          <p data-translate="home_subtitle">Experience the perfect blend of comfort and taste</p>
+          <p data-translate="home_subtitle">
+            Experience the perfect blend of comfort and taste
+          </p>
         </div>
       </section>
 
@@ -73,10 +97,16 @@
       <section id="menu">
         <div class="container">
           <h2 data-translate="menu_title" class="fade-in">Our Menu</h2>
-          <br>
-          <h2 data-translate="menu_drinks" class="fade-in">Drinks</h2>
+          <div class="menu-tabs">
+            <button class="menu-tab active" data-category="drinks">
+              <h2 data-translate="menu_drinks" class="fade-in">Drinks</h2>
+            </button>
+            <button class="menu-tab" data-category="desserts">
+              <h2 data-translate="menu_desserts" class="fade-in">Desserts</h2>
+            </button>
+          </div>
           <!-- Drink Items -->
-          <div class="menu-grid" id="drinks-menu">
+          <div class="menu-grid active" id="drinks-menu">
             <div class="menu-item fade-in">
               <img src="/images/thai_tea.jpg" />
               <div class="menu-item-content">
@@ -87,49 +117,59 @@
             <div class="menu-item fade-in">
               <img src="/images/matcha.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_thai_green_tea">Thai Green Tea</h3>
+                <h3 data-translate="menu_drink_thai_green_tea">
+                  Thai Green Tea
+                </h3>
                 <p class="menu-item-price">€2.50</p>
               </div>
             </div>
             <div class="menu-item fade-in">
               <img src="/images/lemon_tea.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_thai_lemon_tea">Thai Lemon Tea</h3>
+                <h3 data-translate="menu_drink_thai_lemon_tea">
+                  Thai Lemon Tea
+                </h3>
                 <p class="menu-item-price">€4.50</p>
               </div>
             </div>
             <div class="menu-item fade-in">
               <img src="/images/cocoa.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_chocolate_drink">Chocolate Drink</h3>
+                <h3 data-translate="menu_drink_chocolate_drink">
+                  Chocolate Drink
+                </h3>
                 <p class="menu-item-price">€4.00</p>
               </div>
             </div>
             <div class="menu-item fade-in">
               <img src="/images/milk_sala.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_milk_pink_sala">Pink Sala with Milk</h3>
+                <h3 data-translate="menu_drink_milk_pink_sala">
+                  Pink Sala with Milk
+                </h3>
                 <p class="menu-item-price">€4.00</p>
               </div>
             </div>
             <div class="menu-item fade-in">
               <img src="/images/lime_pink_sala.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_lime_pink_soda">Pink Soda with Lime</h3>
+                <h3 data-translate="menu_drink_lime_pink_soda">
+                  Pink Soda with Lime
+                </h3>
                 <p class="menu-item-price">€4.00</p>
               </div>
             </div>
             <div class="menu-item fade-in">
               <img src="/images/butterfly_pea_tea.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_drink_butterfly_pea_tea">Butterfly Pea Tea With Lime</h3>
+                <h3 data-translate="menu_drink_butterfly_pea_tea">
+                  Butterfly Pea Tea With Lime
+                </h3>
                 <p class="menu-item-price">€4.00</p>
               </div>
             </div>
           </div>
 
-          <br></br>
-          <h2 data-translate="menu_desserts" class="fade-in">Desserts</h2>
           <!-- Desserts Menu -->
           <div class="menu-grid" id="desserts-menu">
             <div class="menu-item fade-in">
@@ -142,7 +182,9 @@
             <div class="menu-item fade-in">
               <img src="/images/pandan_chiffon.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_dessert_pandan_chiffon">Pandan Chiffon</h3>
+                <h3 data-translate="menu_dessert_pandan_chiffon">
+                  Pandan Chiffon
+                </h3>
                 <p class="menu-item-price">€5.50</p>
               </div>
             </div>
@@ -156,7 +198,9 @@
             <div class="menu-item fade-in">
               <img src="/images/thai_tea_kaya.jpg" />
               <div class="menu-item-content">
-                <h3 data-translate="menu_dessert_thai_tea_kaya">Thai Tea Kaya</h3>
+                <h3 data-translate="menu_dessert_thai_tea_kaya">
+                  Thai Tea Kaya
+                </h3>
                 <p class="menu-item-price">€2.50</p>
               </div>
             </div>
@@ -177,8 +221,14 @@
             <div class="contact-info">
               <h2 data-translate="contact_title">Contact Us</h2>
               <p>Email: watchacafe.aachen@gmail.com</p>
-              <p><span data-translate="contact_phone">Phone</span>: (0xxx) 123-4567</p>
-              <p><span data-translate="contact_address">Address</span>: Neupforte 23/25, City, 52062 Aachen</p>
+              <p>
+                <span data-translate="contact_phone">Phone</span>: (0xxx)
+                123-4567
+              </p>
+              <p>
+                <span data-translate="contact_address">Address</span>: Neupforte
+                23/25, City, 52062 Aachen
+              </p>
             </div>
             <div class="map-container">
               <iframe
@@ -204,9 +254,11 @@
         <div>
           <h3 data-translate="footer_hours_title">Hours</h3>
           <p>
-            <span data-translate="footer_hours_weekday">Mon-Fri</span>: 11am - 8pm  
+            <span data-translate="footer_hours_weekday">Mon-Fri</span>: 11am -
+            8pm
             <br />
-            <span data-translate="footer_hours_weekend">Sat-Sun</span>: 10am - 9pm  
+            <span data-translate="footer_hours_weekend">Sat-Sun</span>: 10am -
+            9pm
           </p>
         </div>
         <div>
