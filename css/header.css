@@ -1,0 +1,177 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--header-bg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-bottom: 0;
+}
+
+.controls-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: 0.8rem;
+}
+
+/* Language switcher styles */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  transition: color 0.2s ease;
+}
+
+.lang-btn:hover {
+  color: white;
+}
+
+.lang-btn.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.lang-separator {
+  color: #333;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--header-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle .sun-icon,
+.theme-toggle .moon-icon {
+  transition: transform 0.3s;
+}
+
+.nav-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* gap: 2rem; */
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav-links a {
+  min-width: 110px;
+  text-decoration: none;
+  color: var(--header-text);
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+.nav-links a:hover {
+  color: var(--header-hover);
+}
+
+/* for large screens */
+@media (min-width: 769px) {
+  .nav-links {
+    position: absolute;
+    left: 13%;
+    gap: clamp(4rem, 8vw, 9rem);
+  }
+
+  .nav-links a {
+    padding: 0.5rem 1rem; /* Equal padding around links */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+
+  .language-switcher {
+    padding-right: 0.7rem;
+  }
+}
+
+/* for medium screens */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .nav-links {
+    position: absolute;
+    left: 13%;
+    gap: clamp(0.2rem, 1.5vw, 1rem);
+  }
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none; /* Hidden by default on desktop */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 28px;
+  height: 20px;
+  position: relative;
+  z-index: 1002; /* Ensure it stays above the menu */
+}
+
+.hamburger-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Position each line */
+.hamburger-line:nth-child(1) {
+  top: 0;
+}
+
+.hamburger-line:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger-line:nth-child(3) {
+  bottom: 0;
+}
+
+/* Animation for the X state */
+.hamburger.active .hamburger-line:nth-child(1) {
+  transform: translateY(9px) rotate(45deg); /* height / 2 - 1 */
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}

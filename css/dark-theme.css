@@ -1,0 +1,24 @@
+[data-theme="dark"] {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+
+  --header-bg: hsl(24, 56%, 46%);
+  --header-text: #ffffff;
+  --header-hover: #e0e0e0;
+
+  --menu-item-bg: #2d2d2d;
+  --menu-item-price: #ff9f5a;
+
+  --section-alt-bg: #262626;
+
+  --footer-bg: #1a1a1a;
+  --footer-text: #ffffff;
+}
+
+[data-theme="dark"] .sun-icon {
+  display: none;
+}
+
+[data-theme="light"] .moon-icon {
+  display: none;
+}
