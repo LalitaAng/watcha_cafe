@@ -37,10 +37,10 @@ export const de = {
     contact_address: "Adresse",
 
     // Footer
-    footer_hours_title: "Öffnungszeit",
+    footer_hours_title: "Öffnungszeiten",
     footer_hours_weekday: "Mo-Fr",
     footer_hours_weekend: "Sa-So",
-    footer_quick_links: "Schnelle Links",
+    footer_quick_links: "Links",
     footer_legal_notice: "Impressum",
     footer_data_protection: "Datenschutz",
 };

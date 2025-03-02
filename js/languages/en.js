@@ -37,10 +37,10 @@ export const en = {
     contact_address: "Address",
 
     // Footer
-    footer_hours_title: "Hours",
+    footer_hours_title: "Open Hours",
     footer_hours_weekday: "Mon-Fri",
     footer_hours_weekend: "Sat-Sun",
-    footer_quick_links: "Quick Links",
+    footer_quick_links: "Links",
     footer_legal_notice: "Legal Notice",
     footer_data_protection: "Data Protection",
 };

@@ -93,6 +93,7 @@ header {
   color: var(--header-text);
   font-weight: bold;
   transition: color 0.1s;
+  font-size: 1.25rem;
 }
 
 .nav-links a:hover {
