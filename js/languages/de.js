@@ -23,13 +23,25 @@ export const de = {
     menu_drink_milk_pink_sala: "Pink Sala mit Milch",
     menu_drink_lime_pink_soda: "Pink Sala mit Limette",
     menu_drink_butterfly_pea_tea: "Butterfly Pea Tee mit Limette",
+
+    menu_coffee: "Kaffee",
+    menu_coffee_dirty: "Dirty Kaffee",
+    menu_coffee_iced_latte: "Iced Latte",
+    menu_coffee_iced_americano: "Iced Americano",
+    menu_coffee_espresso_orangina: "Espresso mit Orangina",
+    menu_coffee_pandan_dirty: "Pandan Dirty Kaffee",
+    menu_coffee_latte: "Latte",
+    menu_coffee_coconut_latte: "Kokosnuss Latte",
+    menu_coffee_coconut_espresso: "Kokosnuss Espresso",
     
     menu_desserts: "Desserts",
     menu_dessert_coconut_cake: "Kokosnuss Kuchen",
     menu_dessert_pandan_chiffon: "Pandan Chiffon",
-    menu_dessert_pandan_kaya: "Pandan Kaya",
-    menu_dessert_thai_tea_kaya: "Thai Tee Kaya",
-    menu_dessert_lemon: "Zitrone Tarte",
+    menu_dessert_toast_kaya: "Shokupan mit Pandan Kaya und Kokonuss Eis",
+    menu_dessert_toast_thai_tea: "Shokupan mit Thai Tee Eis",
+    menu_dessert_toast_coconut: "Shokupan mit Kokosnuss Eis",
+    menu_dessert_toast_vanilla: "Shokupan mit Vanille Eis",
+    menu_dessert_toast_caramel: "Shokupan mit Karamell",
 
     // Contact section
     contact_title: "Kontakt",
@@ -38,8 +50,8 @@ export const de = {
 
     // Footer
     footer_hours_title: "Öffnungszeiten",
-    footer_hours_weekday: "Mo-Fr",
-    footer_hours_weekend: "Sa-So",
+    footer_hours_days: "Mi - So",
+    footer_hours_time: "11 am - 7 pm",
     footer_quick_links: "Links",
     footer_legal_notice: "Impressum",
     footer_data_protection: "Datenschutz",

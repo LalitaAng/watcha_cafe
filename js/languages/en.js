@@ -7,7 +7,7 @@ export const en = {
 
     // Home section
     home_title: "Welcome to Watcha Café",
-    home_subtitle: "Experience the perfect blend of comfort and taste",
+    home_subtitle: "Leave everyday life behind and enjoy a sweet break with friends and family – whether after the main course or just in between for a sweet pause.",
 
     // About section
     about_title: "About Us",
@@ -22,7 +22,9 @@ export const en = {
     menu_drink_chocolate_drink: "Chocolate Drink",
     menu_drink_milk_pink_sala: "Pink Sala with Milk",
     menu_drink_lime_pink_soda: "Pink Soda with Lime",
-    menu_drink_butterfly_pea_tea: "Butterfly Pea Tee with Lime",
+    menu_drink_butterfly_pea_tea: "Butterfly Pea Tea with Lime",
+
+    menu_coffee: "Coffee",
     
     menu_desserts: "Desserts",
     menu_dessert_coconut_cake: "Coconut Cake",
@@ -38,8 +40,8 @@ export const en = {
 
     // Footer
     footer_hours_title: "Open Hours",
-    footer_hours_weekday: "Mon-Fri",
-    footer_hours_weekend: "Sat-Sun",
+    footer_hours_days: "Wed - Sun",
+    footer_hours_time: "11 am - 7 pm",
     footer_quick_links: "Links",
     footer_legal_notice: "Legal Notice",
     footer_data_protection: "Data Protection",
