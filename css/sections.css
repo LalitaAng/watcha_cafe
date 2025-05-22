@@ -34,7 +34,7 @@ section > .container > h2 {
 
 /* Home section */
 #home {
-  background: url("/images/cafe.jpg") center/cover;
+  background: url("/images/Thai\ Tea.jpg") center/cover;
   opacity: 50%;
   height: 80vh;
   display: flex;
