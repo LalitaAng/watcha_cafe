@@ -103,9 +103,11 @@ header {
 /* for large screens */
 @media (min-width: 769px) {
   .nav-links {
-    position: absolute;
-    left: 13%;
-    gap: clamp(4rem, 8vw, 9rem);
+    position: static;
+    gap: clamp(0.5rem, 2.5vw, 3rem);
+    flex: 1;
+    justify-content: center;
+    margin: 0 1rem;
   }
 
   .nav-links a {

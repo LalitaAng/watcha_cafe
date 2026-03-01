@@ -7,7 +7,7 @@ export const de = {
 
     // Home section
     home_title: "Wilkommen zum Watcha Café",
-    home_subtitle: "Lass den Alltag hinter dir und genieße eine süße Auszeit mit Freunden und Familie - ob nach dem Hauptgericht oder einfach zwischendurch für eine süße Pause",
+    home_subtitle: "Lass den Alltag hinter dir und genieße eine süße Auszeit mit Freunden und Familie, ob nach dem Hauptgericht oder einfach zwischendurch für eine süße Pause",
 
     // About section
     about_title: "Über uns",
@@ -42,6 +42,12 @@ export const de = {
     menu_dessert_toast_coconut: "Shokupan mit Kokosnuss Eis",
     menu_dessert_toast_vanilla: "Shokupan mit Vanille Eis",
     menu_dessert_toast_caramel: "Shokupan mit Karamell",
+
+    // Services section
+    services_title: "Angebote",
+    services_party_title: "Private Veranstaltungen",
+    services_party_description: "Du suchst ein besonderes und gemütliches Ambiente für deine nächste Feier? Das Watcha Café heißt private Partys und besondere Zusammenkünfte herzlich willkommen. Ob Geburtstag, Jubiläum oder Firmenfeier, wir freuen uns, euch bei uns zu empfangen.",
+    services_party_cta: "Für Buchungsanfragen erreichst du uns unter",
 
     // Contact section
     contact_title: "Kontakt",

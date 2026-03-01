@@ -7,7 +7,7 @@ export const en = {
 
     // Home section
     home_title: "Welcome to Watcha Café",
-    home_subtitle: "Leave everyday life behind and enjoy a sweet break with friends and family – whether after the main course or just in between for a sweet pause.",
+    home_subtitle: "Leave everyday life behind and enjoy a sweet break with friends and family, whether after the main course or just in between for a sweet pause.",
 
     // About section
     about_title: "About Us",
@@ -32,6 +32,12 @@ export const en = {
     menu_dessert_pandan_kaya: "Pandan Kaya",
     menu_dessert_thai_tea_kaya: "Thai Tea Kaya",
     menu_dessert_lemon: "Lemon Tart",
+
+    // Services section
+    services_title: "Services",
+    services_party_title: "Private Party Bookings",
+    services_party_description: "Looking for a unique and cosy venue for your next celebration? Watcha Café warmly welcomes private parties and special gatherings. Whether it's a birthday, an anniversary, or a business party, we'd love to host you.",
+    services_party_cta: "To make a booking enquiry, please reach out to us at",
 
     // Contact section
     contact_title: "Contact",

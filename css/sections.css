@@ -50,9 +50,61 @@ section > .container > h2 {
   background: var(--section-alt-bg);
 }
 
+/* Services section */
+#services {
+  background: var(--section-alt-bg);
+}
+
+.services-content {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+
+.services-card {
+  background: none;
+  border-radius: 12px;
+  padding: 0;
+}
+
+.services-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.services-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.services-card p {
+  line-height: 1.8;
+  color: var(--text-color);
+  margin-bottom: 1.2rem;
+}
+
+.services-cta {
+  font-weight: 600;
+}
+
+.services-email {
+  display: inline-block;
+  margin-left: 0.3rem;
+  color: hsl(24, 76%, 46%);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.services-email:hover {
+  color: hsl(24, 76%, 36%);
+  border-bottom-color: hsl(24, 76%, 36%);
+}
+
 /* Contact section */
 #contact {
-  background: var(--section-alt-bg);
+  background: var(--background-color);
 }
 
 .contact-grid {
@@ -64,6 +116,28 @@ section > .container > h2 {
 
 .contact-info p {
   margin-top: 20px;
+}
+
+.contact-instagram {
+  margin-top: 1rem;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.instagram-link:hover {
+  color: #c2185b;
+}
+
+.instagram-link svg {
+  flex-shrink: 0;
 }
 
 .map-container {
