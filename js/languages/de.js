@@ -29,7 +29,6 @@ export const de = {
     menu_coffee_iced_latte: "Iced Latte",
     menu_coffee_iced_americano: "Iced Americano",
     menu_coffee_espresso_orangina: "Espresso mit Orangina",
-    menu_coffee_pandan_dirty: "Pandan Dirty Kaffee",
     menu_coffee_latte: "Latte",
     menu_coffee_coconut_latte: "Kokosnuss Latte",
     menu_coffee_coconut_espresso: "Kokosnuss Espresso",
@@ -42,6 +41,7 @@ export const de = {
     menu_dessert_toast_coconut: "Shokupan mit Kokosnuss Eis",
     menu_dessert_toast_vanilla: "Shokupan mit Vanille Eis",
     menu_dessert_toast_caramel: "Shokupan mit Karamell",
+    menu_dessert_steamed_toast_kaya: "Gedämpftes Shokupan mit Kaya",
 
     // Services section
     services_title: "Angebote",

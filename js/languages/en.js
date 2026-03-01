@@ -17,7 +17,7 @@ export const en = {
     menu_title: "Menu",
     menu_drinks: "Drinks",
     menu_drink_thai_milk_tea: "Thai Milk Tea",
-    menu_drink_thai_green_tea: "Thai green Tea",
+    menu_drink_thai_green_tea: "Thai Green Tea",
     menu_drink_thai_lemon_tea: "Thai Lemon Tea",
     menu_drink_chocolate_drink: "Chocolate Drink",
     menu_drink_milk_pink_sala: "Pink Sala with Milk",
@@ -25,6 +25,13 @@ export const en = {
     menu_drink_butterfly_pea_tea: "Butterfly Pea Tea with Lime",
 
     menu_coffee: "Coffee",
+    menu_coffee_dirty: "Dirty Coffee",
+    menu_coffee_iced_latte: "Iced Latte",
+    menu_coffee_iced_americano: "Iced Americano",
+    menu_coffee_espresso_orangina: "Espresso Orangina",
+    menu_coffee_latte: "Latte",
+    menu_coffee_coconut_latte: "Coconut Latte",
+    menu_coffee_coconut_espresso: "Coconut Espresso",
     
     menu_desserts: "Desserts",
     menu_dessert_coconut_cake: "Coconut Cake",
@@ -32,6 +39,7 @@ export const en = {
     menu_dessert_pandan_kaya: "Pandan Kaya",
     menu_dessert_thai_tea_kaya: "Thai Tea Kaya",
     menu_dessert_lemon: "Lemon Tart",
+    menu_dessert_steamed_toast_kaya: "Steamed Shokupan with Kaya",
 
     // Services section
     services_title: "Services",
